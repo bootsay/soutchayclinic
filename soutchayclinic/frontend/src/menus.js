@@ -14,7 +14,7 @@ export function useAppMenus() {
   },
   {
     "to": "/appointments",
-    "label": "Appointments",
+    "label": "ນັດໜາຍ",
     "icon": "pi pi-th-large",
     "iconcolor": "",
     "target": "",
