@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+@use '@/assets/layout/layout';
+@use 'primeicons/primeicons.css';
+
+// reset grid columns when placed inside dialog or drawer
+.p-dialog .grid .comp-grid,
+.p-drawer .grid .comp-grid {
+    grid-column: 1 / -1 !important;
+}
+
+
+.p-menubar {
+    padding: 0 !important;
+}
+::v-deep(.editable-cells-table td.p-cell-editing) {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.img-fluid {
+    max-width: 100% !important;
+}
+.text-capitalize {
+    text-transform: capitalize;
+}
+#master-detailpage {
+    scroll-margin-top: 10px;
+}
+.search-result-holder {
+    right: 0;
+    margin: auto;
+    max-width: 90vw;
+    position: absolute;
+    z-index: 10000;
+    width: 500px;
+    background-color: var(--surface-card);
+    .result-list {
+        max-height: 400px;
+        overflow: auto;
+    }
+}
+
+body{
+
+}

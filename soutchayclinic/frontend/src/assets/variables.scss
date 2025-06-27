@@ -1,0 +1,17 @@
+/* General */
+$fontFamily:lato;
+$fontSize:14px;
+$borderRadius:8px;
+$transitionDuration:.2s;
+
+/* Top bar */
+$topbarColor: var(--p-primary-100);
+$topbarBgColor: var(--p-primary-color);
+
+/* Left drawer */
+$sidebarWidth: 270px;
+$sidebarMiniWidth: 110px;
+$sidebarColor: var(--p-text-color);
+$sidebarBgColor: var(--p-surface-card);
+$sidebarActiveColor:var(--p-primary-100);
+$sidebarActiveBgColor: var(--p-primary-color);
