@@ -22,7 +22,7 @@ export function useAppMenus() {
   },
   {
     "to": "/patients",
-    "label": "Patients",
+    "label": "ລູກຄ້າ",
     "icon": "pi pi-th-large",
     "iconcolor": "",
     "target": "",
